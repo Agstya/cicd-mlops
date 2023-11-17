@@ -6,6 +6,7 @@ on:
         - main
     paths:
         - model/svm.mlem
+  workflow_dispatch:
 
 jobs:
   publish-model:
