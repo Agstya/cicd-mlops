@@ -5,6 +5,7 @@ on:
       - src/**
       - tests/**
       - params.yaml
+  workflow_dispatch:
       
 jobs:
   test_model:
